@@ -1,0 +1,26 @@
+PS H:\マイドライブ\侍エンジニア\lesson> mkdir git_challenge
+
+
+    ディレクトリ: H:\マイドライブ\侍エンジニア\lesson
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/06/09     18:46                git_challenge
+
+
+PS H:\マイドライブ\侍エンジニア\lesson> cd git_challenge   
+PS H:\マイドライブ\侍エンジニア\lesson\git_challenge> git init
+Initialized empty Git repository in H:/マイドライブ/侍エンジニア/lesson/git_challenge/.git/
+PS H:\マイドライブ\侍エンジニア\lesson\git_challenge> git add .       
+PS H:\マイドライブ\侍エンジニア\lesson\git_challenge> git commit -m "1回目の変更をコミット"
+[main (root-commit) 81a7823] 1回目の変更をコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS H:\マイドライブ\侍エンジニア\lesson\git_challenge> git add .
+PS H:\マイドライブ\侍エンジニア\lesson\git_challenge> git commit -m "2回目の変更をコミット"
+[main aaeaf0f] 2回目の変更をコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS H:\マイドライブ\侍エンジニア\lesson\git_challenge> git log --oneline
+aaeaf0f (HEAD -> main) 2回目の変更をコミット
+81a7823 1回目の変更をコミット
